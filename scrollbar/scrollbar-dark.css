@@ -1,0 +1,23 @@
+/*
+Scrollbar Option 01 — Dark Neon
+Author: Dan Barbosa
+Usage: Elementor → Custom CSS
+*/
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #0f172a; /* Dark navy */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    transparent,
+    #00e5ff
+  );
+  border-radius: 40px;
+}
+
+
+
+
