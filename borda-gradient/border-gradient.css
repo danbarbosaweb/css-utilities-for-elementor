@@ -1,0 +1,44 @@
+/*  
+Utility: Gradient Border Top & Bottom
+Color: Purple+'
+Author: Dan Barbosa
+Category: Borders / UI Accent
+Usage: Elementor → Advanced → Custom CSS
+Description: Adds a subtle purple gradient border to the top of an element.
+Compatibility: Chrome, Edge, Safari (Firefox limited support)
+*/
+
+/* === GRADIENT BORDER | TOPO  === */
+
+selector {
+  border-top: 6px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    transparent,
+    #9b5cff,
+    transparent
+  ) 1;
+}
+
+/* === GRADIENT BORDER | BAIXO  === */
+
+selector {
+  border-bottom: 6px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    transparent,
+    #7624fa,
+    transparent
+  ) 1;
+}
+
+/* === SOLID PURPLE GRADIENT BORDER === */
+
+selector {
+  border-top: 6px solid;
+  border-image: linear-gradient(
+    to right,
+    #c7b3ff,
+    #7a3cff
+  ) 1;
+}
