@@ -1,6 +1,6 @@
 
 # Mouse Cursor Effect para Elementor
-![Cursor em ação](assets/gifs/gif-mouse.gif)
+![Preview](../assets/gifs/gif.mouse.gif)
 
 Este projeto adiciona um efeito de cursor personalizado (círculo azul) em sites feitos com Elementor.
 
