@@ -1,0 +1,25 @@
+/*
+Curso do Mouse Correndo Atrás do Curso Lá ele
+Author: Dan Barbosa
+Usage: Elementor → Custom CSS
+*/
+
+#mouse-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background: rgba(33, 147, 247, 0.45); /* #2193f7 com opacidade */
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+  transition: background 0.3s ease; /* opcional: suaviza mudança de cor */
+}
+
+@media (max-width: 768px) {
+  #mouse-dot {
+    display: none;
+  }
+}
