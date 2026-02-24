@@ -1,32 +1,71 @@
+# 🖱️ Mouse Cursor Effect para Elementor
 
-# Mouse Cursor Effect para Elementor
 ![Preview do Mouse Cursor Effect](https://github.com/danbarbosaweb/css-utilities-for-elementor/raw/main/assets/gifs/gif-mouse.gif)
 
-Este projeto adiciona um efeito de cursor personalizado (círculo azul) em sites feitos com Elementor.
+✨ Este projeto adiciona um efeito de cursor personalizado (círculo azul) em sites feitos com Elementor.
 
-## Como usar
-1) Faça upload/copie dos arquivos mouse-cursor.css e mouse-cursor.js para a sua biblioteca de temas ou Elementor.
+---
 
-2) Adicione um Widget HTML contendo a seguinte div:
+## 🚀 Como usar
+
+### 1️⃣ Upload dos arquivos
+Faça upload ou copie os arquivos:
+
+- `mouse-cursor.css`
+- `mouse-cursor.js`
+
+Processo de Copia e Cola, separe os codigos ;) 
+
+---
+
+### 2️⃣ Widget HTML — Div do Cursor
+
+Adicione um **Widget HTML** contendo:
+
+```html
 <div id="mouse-dot"></div>
+```
 
-3) Adicione outro Widget HTML contendo o conteúdo do arquivo mouse-cursor.js (script).
+---
 
-4) Inclua o CSS do arquivo mouse-cursor.css no Custom CSS global do Elementor (ou no CSS do tema).
+### 3️⃣ Widget HTML — Script
 
-O cursor funcionará automaticamente em desktops.
-Ele será desativado em telas menores que 768px..
+Adicione **outro Widget HTML** contendo o conteúdo do arquivo:
 
-4. O cursor funcionará automaticamente em desktops.  
-   Ele será desativado em telas menores que 768px.
+`mouse-cursor.js`
 
-## Personalização
+---
 
-- **Tamanho do cursor:** alterar `width` e `height` no CSS.  
-- **Cor do cursor:** alterar `background` no CSS (atualmente rgba(33,147,247,0.45)).  
-- **Suavidade:** adicionar `transition` no CSS para animações.
+### 4️⃣ CSS Global
 
-## Observações
+Inclua o conteúdo do arquivo:
 
-- Compatível apenas com **desktop**; mobile desativado via media query.  
-- Elementos com `pointer-events: none;` permitem que o cursor passe por cima sem atrapalhar cliques.
+`mouse-cursor.css`
+
+no **Custom CSS global** do Elementor (ou no CSS do tema).
+
+---
+
+## ✅ Resumo da Estrutura Necessária
+
+Para funcionar perfeitamente você precisa:
+
+- 🧩 1 Widget HTML com a `<div id="mouse-dot"></div>`
+- ⚙️ 1 Widget HTML com o script (`mouse-cursor.js`)
+- 🎨 CSS Global aplicado (`mouse-cursor.css`)
+
+---
+
+## 💻 Compatibilidade
+
+- 🖥️ Funciona automaticamente em **desktop**
+- 📱 Desativado em telas menores que **768px**
+- 🎯 Elementos com `pointer-events: none;` permitem que o cursor passe por cima sem bloquear cliques
+
+---
+
+## 🎨 Personalização
+
+- 📏 **Tamanho do cursor:** alterar `width` e `height` no CSS  
+- 🎨 **Cor do cursor:** alterar `background` (atualmente `rgba(33,147,247,0.45)`)  
+- ✨ **Suavidade:** adicionar `transition` no CSS para animações mais fluidas.
