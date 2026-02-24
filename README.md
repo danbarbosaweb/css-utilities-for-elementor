@@ -68,8 +68,8 @@ Este repositório foi organizado com dedicação — no meio da correria de quem
 
 Se este projeto te ajudou de alguma forma, considere apoiar:
 
-- 🔗 Me siga no LinkedIn  
-- ▶️ Inscreva-se no meu canal no YouTube  
+- 🔗 Me siga no LinkedIn  https://www.linkedin.com/
+- ▶️ Inscreva-se no meu canal no YouTube  https://www.youtube.com/@DanBarbosaweb
 
 Isso fortalece a comunidade e me incentiva a continuar criando novos utilitários gratuitos.
 
@@ -87,4 +87,5 @@ Você nunca me viu. 🤐🔥
 
 Valeuu!! 🚀
 — Dan Barbosa
+
 
