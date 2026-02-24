@@ -79,9 +79,7 @@ Isso fortalece a comunidade e me incentiva a continuar criando novos utilitário
 
 E se ligue meu irmão… isso aqui é segredo nosso 🤫  
 
-<p align="center">
-  <img src="https://i.giphy.com/media/901mxGLGQN2PyCQpoc/giphy.gif" width="300">
-</p>
+<img src="assets/gifs/secret.gif" width="300">
 
 Se alguém perguntar onde você aprendeu esses efeitos…
 
@@ -89,3 +87,4 @@ Você nunca me viu. 🤐🔥
 
 Valeuu!! 🚀
 — Dan Barbosa
+
